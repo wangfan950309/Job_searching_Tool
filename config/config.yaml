@@ -1,0 +1,6 @@
+web: ['https://www.greatplacetowork.ca/en/best-workplaces/best-workplaces-in-canada-2019-1000-employees',
+      'https://www.greatplacetowork.ca/en/best-workplaces/best-workplaces-in-canada-2019-100-999-employees',
+      'https://www.greatplacetowork.ca/en/best-workplaces/best-workplaces-in-canada-2019-less-than-100-employees']
+large: 'https://www.greatplacetowork.ca/en/best-workplaces/best-workplaces-in-canada-2019-1000-employees'
+medium: 'https://www.greatplacetowork.ca/en/best-workplaces/best-workplaces-in-canada-2019-100-999-employees'
+small: 'https://www.greatplacetowork.ca/en/best-workplaces/best-workplaces-in-canada-2019-less-than-100-employees'
