@@ -58,11 +58,16 @@ def parser(config):
     return df
 
 
-if __name__ == '__main__':
+def get_config():
     path = os.getcwd()
     path = os.path.abspath(os.path.join(path, '..'))
     with open('%s/config/config.yaml' % path, 'r') as file:
         config = yaml.load(file)
-    df = parser(config)
+    return config
+
+if __name__ == '__main__':
+    path = os.getcwd()
+    path = os.path.abspath(os.path.join(path, '..'))
+    df = parser(get_config())
 #    os.makedirs('%s/data' % path)
     df.to_csv('%s/data/ranking_list.csv' % path, index = False )
