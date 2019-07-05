@@ -57,7 +57,10 @@ def parser(config):
             )
     return df
 
-
+def main_path():
+    path = os.getcwd()
+    path = os.path.abspath(os.path.join(path, '..'))
+    return path
 def get_config():
     path = os.getcwd()
     path = os.path.abspath(os.path.join(path, '..'))
