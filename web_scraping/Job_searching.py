@@ -1,4 +1,4 @@
-from web_scraping import *
+from web_scraping.scraping import *
 import requests
 from tqdm import tqdm
 

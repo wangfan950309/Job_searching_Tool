@@ -7,7 +7,7 @@
 import unittest
 from click.testing import CliRunner
 
-from web_scraping import web_scraping
+from web_scraping import scraping
 from web_scraping import cli
 
 
