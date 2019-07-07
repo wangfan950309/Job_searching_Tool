@@ -2,12 +2,12 @@
 A Tool that scrape all the best place to work from [BestWorkPlace](https://www.greatplacetowork.ca/en/best-workplaces/best-workplaces-in-canada-2019-1000-employees) website and search all the companies from the list on Linkedin Job page and scraping all the open positions and save as an excel file. The Tool will also include a searching web application that enable to search job on certain keywords from the web scraping results (Open Job positions).
 
 
-###Demo:
+### Demo:
 * Main Page:
-![image](./pic/main_page.png)
+![image]('https://github.com/wangfan950309/Job_searching_Tool/tree/master/pic/main_page.PNG')
 
 * Search Results:
-![image](./pic/search_results_sample.png)
+![image]('https://github.com/wangfan950309/Job_searching_Tool/tree/master/pic/search_results_sample.PNG')
 
 ### Setup
 * Driver Setup:
