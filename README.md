@@ -4,10 +4,10 @@ A Tool that scrape all the best place to work from [BestWorkPlace](https://www.g
 
 ### Demo:
 * Main Page:
-![image](pic/main_page.png)
+![image](pic/main_page.PNG)
 
 * Search Results:
-![image](pic/search_results_sample.png)
+![image](pic/search_results_sample.PNG)
 
 ### Setup
 * Driver Setup:
