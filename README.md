@@ -11,7 +11,7 @@ A Tool that scrape all the best place to work from [BestWorkPlace](https://www.g
 
 ### Setup
 * Driver Setup:
-[install ChromeDriver](http://chromedriver.chromium.org/) 
+[Install ChromeDriver](http://chromedriver.chromium.org/) 
 * Python Setup:
 
 ```python
