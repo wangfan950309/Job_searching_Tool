@@ -46,4 +46,4 @@ python app.py
 
 1. Simulate/ Having the action of click on next page in Linkedin and then parse further pages (Perhaps use Linkedin API).
 2. Remove unrelated/incorrect company search results.
-3. Display full job link in searching results and enable the hyperlink functionality
+3. <del>Display full job link in searching results and enable the hyperlink functionality.</del>

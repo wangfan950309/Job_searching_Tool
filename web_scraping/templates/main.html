@@ -1,8 +1,20 @@
 {% extends "simple.html" %}
 {% block content %}
-    <h1>Home Page</h1>
-    <form method="POST">
-        <input name="text">
-        <input type="submit">
-    </form>
+ </form>
+      <div class="row">
+        <div class="col-md-8">
+            <h1>Home Page</h1>
+            <form method="POST">
+                <input name="text">
+                <input type="submit">
+            </form>
+        </div>
+        <div class="col-md-4">
+          <div class="content-section">
+            <h3>Search the Job Title</h3>
+            <p class='text-muted'>It will return the opening position on the list of BestPlaceToWork.
+            </p>
+          </div>
+        </div>
+      </div>
 {% endblock content %}
