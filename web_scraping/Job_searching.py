@@ -16,27 +16,29 @@ def search_job(data):
  #       print(soup.prettify())
         container = soup.find('ul',class_='jobs-search__results-list')
 #        print(container)
+        try:
+            job_list = container.find_all('li')
 
-        job_list = container.find_all('li')
+            for job_list in job_list:
+                try:
+                     job_name = job_list.a.span
+                     job_company = job_list.div.h4.a.text
+                     job_location = job_list.div.div.span
+                     job_link = job_list.a['href']
+                except:
+                    f = f+1
+                 #   print('Cant reach a proper page for %s' % company)
 
-        for job_list in job_list:
-            try:
-                 job_name = job_list.a.span
-                 job_company = job_list.div.h4.a.text
-                 job_location = job_list.div.div.span
-                 job_link = job_list.a['href']
-            except:
-                f = f+1
-             #   print('Cant reach a proper page for %s' % company)
-
-            else:
-             #   print('successfully parsed %s' % company)
-     #        if job_company.lower() == company.lower():
-                s = s+1
-                df = df.append({'Job_Name': job_name.text,
-                                 'Company_Name': job_company,
-                                 'Job_Location': job_location.text,
-                                 'Job_link': job_link}, ignore_index=True)
+                else:
+                 #   print('successfully parsed %s' % company)
+         #        if job_company.lower() == company.lower():
+                    s = s+1
+                    df = df.append({'Job_Name': job_name.text,
+                                     'Company_Name': job_company,
+                                     'Job_Location': job_location.text,
+                                     'Job_link': job_link}, ignore_index=True)
+        except:
+            pass
     print('Successfully searched and parsed %s jobs where %s failures accrued' % (s, f))
     return df
 
