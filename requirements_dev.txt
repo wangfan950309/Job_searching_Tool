@@ -6,4 +6,4 @@ requests==2.19.1
 Flask==1.0.2
 tqdm==4.26.0
 beautifulsoup4==4.7.1
-PyYAML==5.1.1
+PyYAML==5.4
